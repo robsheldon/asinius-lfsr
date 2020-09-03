@@ -1,0 +1,23 @@
+{
+    "name": "asinius/lfsr",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "asinius/asinius": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asinius\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/robsheldon/asinius-core"
+        }
+    ]
+}
